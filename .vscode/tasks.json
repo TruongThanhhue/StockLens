@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Mở StockLens bằng Vnstock venv",
+      "type": "shell",
+      "command": "C:\\Users\\ACER\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "streamlit", "run", "app.py", "--server.port", "8501"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
